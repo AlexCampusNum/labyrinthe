@@ -1,0 +1,19 @@
+#maze {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.cell {
+    /*border: 1px solid #ccc;*/
+    box-sizing: border-box;
+}
+
+.entrance {
+    background-color: lightgreen;
+}
+
+.exit {
+    background-color: lightcoral;
+}
+
